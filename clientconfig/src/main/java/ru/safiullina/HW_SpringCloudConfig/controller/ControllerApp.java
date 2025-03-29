@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class ControllerApp {
 
-    @Value("${user.info}")
+    @Value("${user.role}")
     private String info;
 
     @GetMapping("/info")
